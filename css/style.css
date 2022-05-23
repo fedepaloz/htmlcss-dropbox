@@ -6,21 +6,82 @@ body {
 }
 
 
-header {
+nav {
     height: 80px;
     /* background-color: grey; */
     display: flex;
     justify-content: space-between;
+    /* position: fixed; */
 }
 
-.left-header,
-.right-header {
+.left-nav,
+.right-nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 30%;
 }
 
-.blue-button{background-color: #0061FF;color: white;
+.blue-button {
+    background-color: #0061FF;
+    color: white;
     width: 80px;
-    height: 30px;text-align: center;line-height: 30px;}
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.blue-button-large {
+    background-color: #0061FF;
+    color: white;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    padding: 8px;
+}
+
+.button-large-nobg {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.jumbotron {
+    background-color: #B4D0E7;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.jumbo-container {
+    width: 70%;
+    background-color: aquamarine;
+    /* height: 100%; */
+    position: relative;
+
+
+}
+
+.col-text-jumbo {
+    width: 25%;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+#jumbotron-img{
+    width: 60%;
+    position: absolute;
+    right:0;
+    bottom:-80px;
+
+}
+
+.fa-solid fa-arrow-down{height: 50px;}
