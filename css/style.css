@@ -5,23 +5,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-
-nav {
-    height: 80px;
-    /* background-color: grey; */
-    display: flex;
-    justify-content: space-between;
-    /* position: fixed; */
-}
-
-.left-nav,
-.right-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 30%;
-}
-
+/* utils buttons */
 .blue-button {
     background-color: #0061FF;
     color: white;
@@ -51,6 +35,25 @@ nav {
 }
 
 
+
+nav {
+    height: 80px;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+
+.left-nav,
+.right-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+
+
+
 .jumbotron {
     background-color: #B4D0E7;
     height: 700px;
@@ -61,7 +64,7 @@ nav {
 
 .jumbo-container {
     width: 70%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     /* height: 100%; */
     position: relative;
 
@@ -76,12 +79,47 @@ h1 {
     font-size: 80px;
 }
 
-#jumbotron-img{
+#jumbotron-img {
     width: 60%;
     position: absolute;
-    right:0;
-    bottom:-80px;
+    right: 0;
+    bottom: -80px;
+
 
 }
 
-.fa-solid fa-arrow-down{height: 50px;}
+.fa-solid fa-arrow-down {
+    height: 50px;
+}
+
+
+
+
+main {
+    height: 100vh;
+    background-color: grey;
+    width: 70%;
+    margin: 200px auto
+}
+
+/* sezione business plan */
+
+h2 {
+    font-size: 40px;
+    color: black;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 30px;
+    color: black;
+}
+
+.border-plan-card {
+    border: solid 2px #dedede;
+}
+
+.payment-method {
+    display: flex;
+    justify-content: flex-start;
+}
