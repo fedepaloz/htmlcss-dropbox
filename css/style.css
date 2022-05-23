@@ -1,2 +1,26 @@
-body{margin:0;padding: 0;
-box-sizing: border-box;font-family: 'Rubik Mono One', sans-serif;}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+    height: 80px;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-header,
+.right-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.blue-button{background-color: #0061FF;color: white;
+    width: 80px;
+    height: 30px;text-align: center;line-height: 30px;}
