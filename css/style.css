@@ -102,7 +102,7 @@ h1 {
 
 main {
     height: 1000vh;
-    background-color: grey;
+    background-color:lightgoldenrodyellow;
     width: 70%;
     margin: 200px auto
 }
@@ -131,7 +131,7 @@ h3 {
 
 .business-plan {
     /* width: 90%; */
-    background-color: rgb(146, 218, 218);
+    /* background-color: rgb(146, 218, 218); */
     height: 100vh;
     margin: 0 auto;
 
@@ -150,7 +150,7 @@ h3 {
 .col-enterprise {
     width: 25%;
     height: 100%;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     border: 1px solid #dedede;
     margin: 25px 25px;
 }
@@ -161,36 +161,54 @@ hr {
     width: 60px;
     border-top: 0px solid #bbb;
     position: relative;
-    right:0px;
+    right: 0px;
     margin: 50px 50px;
 }
 
 /* bordi delle schede il primo è di tutte le schede mentre il
 secondo è oslo per il bordo in basso dell utente */
 .card-border {
-    border: 1px solid black;
+    border: 1px solid lightgrey;
 }
 
 .b-bottom {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgrey;
 }
 
-.user-type{text-align: center;
-padding: 10px;}
+.user-type {
+    text-align: center;
+    padding: 10px;
+}
 
-ul{list-style:none;}
+ul {
+    list-style: none;
+}
 
 
- /* font delle card */
- .bold-card-title{font-weight: 500;font-size: 25px;margin-bottom: 15px;}
+/* font delle card */
+.bold-card-title {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
 
- .bold{font-weight: bold;}
+.bold {
+    font-weight: bold;
+}
 
 
 /* margini delle card */
- .account-benefits{margin-top: 50px;margin-left: 20px;}
+.account-benefits {
+    margin-top: 50px;
+    margin-left: 20px;
+}
 
- .account-benefits-margin li{margin: 20px 20px;}
+.account-benefits-margin li {
+    margin: 20px 20px;
+}
 
- .try-button,.buy-now{margin-bottom: 20px;text-align: center;}
-
+.try-button,
+.buy-now {
+    margin-bottom: 20px;
+    text-align: center;
+}
