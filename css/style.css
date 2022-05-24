@@ -23,7 +23,7 @@ body {
     text-align: center;
     line-height: 30px;
     padding: 8px;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .button-large-nobg {
@@ -39,11 +39,14 @@ body {
 
 nav {
     height: 80px;
-    background-color:white;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     z-index: 1;
-    position:fixed;top: 0;left: 0;right: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .left-nav,
@@ -154,7 +157,40 @@ h3 {
 
 
 
-hr{width: 60px;
+hr {
+    width: 60px;
     border-top: 0px solid #bbb;
     position: relative;
-    right: 80px;}
+    right:0px;
+    margin: 50px 50px;
+}
+
+/* bordi delle schede il primo è di tutte le schede mentre il
+secondo è oslo per il bordo in basso dell utente */
+.card-border {
+    border: 1px solid black;
+}
+
+.b-bottom {
+    border-bottom: 1px solid black;
+}
+
+.user-type{text-align: center;
+padding: 10px;}
+
+ul{list-style:none;}
+
+
+ /* font delle card */
+ .bold-card-title{font-weight: 500;font-size: 25px;margin-bottom: 15px;}
+
+ .bold{font-weight: bold;}
+
+
+/* margini delle card */
+ .account-benefits{margin-top: 50px;margin-left: 20px;}
+
+ .account-benefits-margin li{margin: 20px 20px;}
+
+ .try-button,.buy-now{margin-bottom: 20px;text-align: center;}
+
