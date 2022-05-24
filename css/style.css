@@ -15,7 +15,7 @@ body {
     line-height: 30px;
 }
 
-.blue-button-large {
+.blue-button-large a {
     background-color: #0061FF;
     color: white;
     width: 200px;
@@ -23,6 +23,7 @@ body {
     text-align: center;
     line-height: 30px;
     padding: 8px;
+    text-decoration:none;
 }
 
 .button-large-nobg {
@@ -150,3 +151,10 @@ h3 {
     border: 1px solid #dedede;
     margin: 25px 25px;
 }
+
+
+
+hr{width: 60px;
+    border-top: 0px solid #bbb;
+    position: relative;
+    right: 80px;}
