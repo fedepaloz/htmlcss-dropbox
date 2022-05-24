@@ -102,7 +102,7 @@ h1 {
 
 main {
     height: 1000vh;
-    background-color:lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow;
     width: 70%;
     margin: 200px auto
 }
@@ -200,7 +200,7 @@ ul {
 /* margini delle card */
 .account-benefits {
     margin-top: 50px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 .account-benefits-margin li {
@@ -209,6 +209,17 @@ ul {
 
 .try-button,
 .buy-now {
-    margin-bottom: 20px;
+    margin-bottom: 20px;margin-top: 20px;
     text-align: center;
+}
+
+.try-buy-button{margin-top: 80px;}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.account-type {
+    margin-left: 20px;
 }
