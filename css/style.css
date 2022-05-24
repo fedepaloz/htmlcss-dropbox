@@ -131,28 +131,30 @@ h3 {
 
 .business-plan {
     /* width: 90%; */
-    /* background-color: rgb(146, 218, 218); */
+    background-color: rgb(146, 218, 218);
     height: 100vh;
     margin: 0 auto;
+    width: 90%;
 
 
 }
 
 .col-container {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
-    justify-content: space-between;
+    justify-content:space-between;
+    background-color: lightcoral;
 }
 
 .col-professional,
 .col-advance,
 .col-enterprise {
-    width: 25%;
+    width: calc(100% / 3 - 50px);
     height: 100%;
     /* background-color: lightcoral; */
     border: 1px solid #dedede;
-    margin: 25px 25px;
+    
 }
 
 
@@ -223,3 +225,17 @@ ul {
 .account-type {
     margin-left: 20px;
 }
+
+.fa-check{color:#0061FF;}
+
+/* colonna 4 larga enterpise */
+.row-enterprise{width:100%;height: 300px;
+;background-color: beige;margin-top: 50px;
+;
+
+}
+
+.col-enterprise-80w{width: 80%;}
+.col-enterprise-20w{width: 20%;}
+
+.col-cont-ent{display: flex;align-items:center;}
