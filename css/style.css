@@ -257,7 +257,7 @@ ul {
     align-items: center;
 }
 
-  /* sezione partner foto con testo */
+/* sezione partner foto con testo */
 
 .partner-section {
     width: 90%;
@@ -279,4 +279,29 @@ ul {
     text-decoration: none;
     color: black;
     padding: 10px;
+}
+
+/* partner sezione */
+
+.drop-business {
+    width: 90%;
+    background-color: #0061FF;
+    /* height: 1200px; */
+    margin: auto;
+
+}
+
+.business-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.business-card {
+    width: calc(100% / 3 - 50px);
+
+}
+
+.business-card-img {
+    width: 100%;
 }
