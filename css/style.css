@@ -354,7 +354,7 @@ ul {
     width: 50%;
     height: 50%;
     background-color: thistle;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -364,8 +364,8 @@ ul {
     width: 50%;
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    background-color:#F5F5F5;
-    
+    background-color: #F5F5F5;
+
 }
 
 
@@ -409,6 +409,44 @@ ul {
     background-color: #FF1C1C;
 }
 
-.one-card-square{padding: 50px;}
+.one-card-square {
+    padding: 50px;
+}
 
-#designit-img{width: 60%;}
+#designit-img {
+    width: 60%;
+}
+
+/* inizio sezioncina sfondo azzurro prova per la tua azienda */
+
+.try-it {
+    background-color: #B4D0E7;
+    width: 100%;
+    /* height: 500px; */
+}
+
+.try-it-cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+}
+
+#button-white {
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+
+.faq {
+    width: 70%;
+    margin: auto;
+    background-color: #c58ba2;
+    text-align: center;
+}
