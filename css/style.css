@@ -397,7 +397,7 @@ ul {
 
 .four-cards-square-little img {
     width: 50%;
-    filter: invert();
+    filter: invert(1);
 }
 
 /* colori quadrati */
