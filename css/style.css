@@ -1,8 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
     font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /* utils buttons */
@@ -350,13 +354,57 @@ ul {
     width: 50%;
     height: 50%;
     background-color: thistle;
-    border: 1px dotted rgb(0, 0, 0);
-    box-sizing: border-box;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .one-card-square {
     width: 50%;
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    background-color: rgb(20, 104, 107);
-    /* border: 1px solid red; */
+    background-color:#F5F5F5;
+    
+}
+
+
+
+.four-cards-square-little img {
+    width: 50%;
+    filter: invert();
+}
+
+/* colori quadrati */
+
+#designit {
+    background-color: #A2D39B;
+}
+
+#arizona {
+    background-color: #61082B;
+}
+
+#florida {
+    background-color: #0093CE;
+}
+
+#topps {
+    background-color: #FF1C1C;
+}
+
+#relief {
+    background-color: #D5001F;
+}
+
+#hearst {
+    background-color: #B4D0E7;
+}
+
+#lonely {
+    background: #0D2481;
+}
+
+#clear {
+    background-color: #FF1C1C;
+}
