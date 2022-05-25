@@ -105,7 +105,7 @@ h1 {
 
 
 main {
-    height: 1000vh;
+    /* height: 1000vh; */
     /* background-color: lightgoldenrodyellow; */
     /* width: 70%; */
     margin: 200px auto
@@ -447,6 +447,59 @@ ul {
 .faq {
     width: 70%;
     margin: auto;
-    background-color: #c58ba2;
-    text-align: center;
+    /* background-color: #c58ba2; */
+    text-align: left;
 }
+
+
+
+.faq-li li {
+    font-weight: 500;
+    border-top: 1px solid black;
+
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#b-bottom {
+    border-bottom: 1px solid black;
+    ;
+}
+
+
+footer {
+    width: 100%;
+    background-color: black;
+    height: 600px;
+    margin-top: 200px;
+    color: white;
+   
+
+}
+
+
+.foot-list-cont{ display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.foot-cont {
+    width: 70%;
+    /* background-color: #A2D39B; */
+    display: flex;
+    justify-content: space-around;
+    /* height: 80%; */
+    /* margin: 20px 20px; */
+    padding: 70px;
+}
+
+.foot-list {
+    line-height: 50px;
+}
+
+.foot-list li:first-child {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
